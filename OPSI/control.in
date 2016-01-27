@@ -1,0 +1,29 @@
+[Package]
+version: @PACKAGE_VERSION@
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: mozilla.firefox.OP
+name: Mozilla Firefox
+description: A web browser
+advice: 
+version: @VERSION@
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup32.opsiscript
+uninstallScript: uninstall32.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+mozilla.firefox (40.0-1) UNRELEASED; urgency=low
+
+  * Initial package
+
+ -- Linnea Skogtvedt <linnea@linuxavdelingen.no>  Wed, 27 Jan 2016 16:52:29 +0100
