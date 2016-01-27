@@ -1,7 +1,7 @@
 # taken from https://raw.githubusercontent.com/astrapi/opsi-packages/master/mozilla-firefox/Makefile
 WGET_COMMON_OPTIONS		= -q -N
 
-PACKAGE_NAME			= mozilla.firefox.OP
+PACKAGE_NAME			= mozilla.firefox.op
 PACKAGE_VERSION			= 1
 VERSION				= 40.0
 LOCALE				?= en-US
@@ -25,7 +25,7 @@ build:
 	opsi-makeproductfile
 
 install:
-	opsi-package-manager --install --setup $(TARGET)
+	opsi-package-manager -i $(TARGET)
 
 clean:
 	rm -f $(TARGET)

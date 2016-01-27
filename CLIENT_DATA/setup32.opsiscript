@@ -27,7 +27,7 @@ Set $LogDir$ = "%opsiLogDir%"
 ;$ProductId$ should be the name of the product in opsi
 ; therefore please: only lower letters, no umlauts, 
 ; no white space use '-' as a seperator
-Set $ProductId$       = "mozilla.firefox.OP"
+Set $ProductId$       = "mozilla.firefox.op"
 Set $MinimumSpace$    = "100 MB"
 ; the path were we find the product after the installation
 Set $InstallDir$      = "%ProgramFiles32Dir%\Mozilla Firefox"

@@ -5,7 +5,7 @@ incremental: False
 
 [Product]
 type: localboot
-id: mozilla.firefox.OP
+id: mozilla.firefox.op
 name: Mozilla Firefox
 description: A web browser
 advice: 

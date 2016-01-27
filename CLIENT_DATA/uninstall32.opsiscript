@@ -21,7 +21,7 @@ Set $LogDir$ = "%opsiLogDir%"
 ; ----------------------------------------------------------------
 ; - Please edit the following values                             -
 ; ----------------------------------------------------------------
-Set $ProductId$       = "mozilla.firefox.OP"
+Set $ProductId$       = "mozilla.firefox.op"
 Set $InstallDir$      = "%ProgramFiles32Dir%\Mozilla Firefox"
 Set $LicenseRequired$ = "false"
 Set $LicensePool$     = "p_" + $ProductId$
